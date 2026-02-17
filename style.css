@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 h1{
     color: tomato;
     font-size: 36px;
@@ -9,6 +12,13 @@ color: #333;
     background-color: yellow;
 
 }
-#main-title{
+#main-title
+{
 font-size: 48px;
+}
+.my-box{
+    padding: 20px;
+    border: 3px solid #8b5cf6;
+    margin: 16px;
+    background: #f0f0ff;
 }
