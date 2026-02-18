@@ -34,3 +34,38 @@ h1 {
 nav a {
   text-decoration: none;
 }
+.hero{
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+.btn{
+  background: #8b5cf6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  
+}
+.btn:hover {
+  background: #7c3aed;
+}
+.btn1{
+  background: #8b5cf6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.btn1:hover{
+  border-radius: 50%;
+}
