@@ -112,3 +112,13 @@ nav a {
 .logo {
   color: antiquewhite;
 }
+.images{
+  flex-direction: column;
+  padding: 16px;
+}
+@media (min-width:768px){
+  .images{
+    flex-direction: row;
+    padding: 32px;
+  }
+}
