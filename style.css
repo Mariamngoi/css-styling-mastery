@@ -34,14 +34,14 @@ h1 {
 nav a {
   text-decoration: none;
 }
-.hero{
-  background: linear-gradient(135deg,#667eea,#764ba2);
+.hero {
+  background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   padding: 60px 20px;
   text-align: center;
   border-radius: 8px;
 }
-.btn{
+.btn {
   background: #8b5cf6;
   color: white;
   padding: 12px 24px;
@@ -50,12 +50,11 @@ nav a {
   cursor: pointer;
   font-size: 16px;
   margin-top: 15px;
-  
 }
 .btn:hover {
   background: #7c3aed;
 }
-.btn1{
+.btn1 {
   background: #8b5cf6;
   color: white;
   padding: 12px 24px;
@@ -66,20 +65,20 @@ nav a {
   margin-top: 15px;
   margin-left: 20px;
 }
-.btn1:hover{
+.btn1:hover {
   border-radius: 50%;
 }
-.container{
+.container {
   display: flex;
   gap: 10px;
 }
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 100px;
 }
 .start {
   display: flex;
@@ -90,6 +89,26 @@ nav a {
   gap: 10px;
   margin-top: 10px;
 }
-
-  
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #3e3e69;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #e0dde8;
+  cursor: pointer;
+}
+.logo {
+  color: antiquewhite;
+}
