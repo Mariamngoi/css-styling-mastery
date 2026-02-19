@@ -81,7 +81,7 @@ nav a {
     text-align: center;
     line-height: 100px;
 }
-.centered {
+.start {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -90,3 +90,6 @@ nav a {
   gap: 10px;
   margin-top: 10px;
 }
+
+  
+
