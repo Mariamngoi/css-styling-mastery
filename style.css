@@ -80,6 +80,9 @@ nav a {
   text-align: center;
   line-height: 100px;
 }
+.box:hover{
+  background-color: palevioletred;
+}
 .start {
   display: flex;
   justify-content: flex-start;
@@ -111,6 +114,22 @@ nav a {
 }
 .logo {
   color: antiquewhite;
+}
+h2{
+  color: #ff7200;
+  font-family: 'Times New Roman';
+  font-size: 25px;
+}
+h2:hover{
+text-align: end;
+}
+ul li{
+  list-style: none;
+  color: tomato;
+}
+ul li:hover{
+  color: black;
+  text-align: center;
 }
 .images{
   flex-direction: column;
